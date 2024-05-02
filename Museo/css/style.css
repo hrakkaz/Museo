@@ -1,0 +1,95 @@
+/* Styles Généraux */
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
+* {
+    font-family: 'Rufina', serif;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #DED0BA;
+}
+a {
+    text-decoration: none;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 2vw;
+}
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a {
+    color: #7C6A67;
+    margin: 0px 3vw;
+}
+nav h1 {
+    color: white;
+    font-size: 3vw;
+}
+
+/* Textes */
+.primary-text {
+    color: #B02E20;
+    font-size: 9vw;
+    margin: 0 0 10px;
+}
+.secondary-text {
+    color: #7C6A67;
+    font-size: 2vw;
+    margin: 0 0 10px;
+}
+
+.container_index {
+    display: flex;
+}
+
+.container_index .text_left_cont {
+    flex: 1;
+    margin: 0 0 20px 20px;
+}
+
+/* Bloc Miroir */
+.bloc_miroir {
+    flex: 0 0 38vw;
+    height: 45vw;
+    background-color: #B02E20;
+    padding: 20px;
+    margin: 50px 50px 50px 0px;
+    border-radius: 141px 40px 63px 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10vw;
+    color: white;
+}
+.miroir {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+/* Bouton */
+.container_index button {
+    background-color: #B02E20;
+    padding: 2vw 5vw;
+    border: none;
+    border-radius: 30px;
+    margin: auto;
+    display: block;
+    color: white;
+    font-size: 1.5vw;
+    box-shadow: black 0 0 18px;
+}
